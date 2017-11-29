@@ -4,8 +4,10 @@ pipeline{
     }
     stages {
         stage('Checkout'){
+            steps{
             checkout scm
-       }
+            }
+        }
         stage ('Dependencies'){
             steps{
                 sh 'npm --version'

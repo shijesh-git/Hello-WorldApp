@@ -1,5 +1,4 @@
 pipeline{
-    node 'Master'
     agent {
      label 'Master'
     }

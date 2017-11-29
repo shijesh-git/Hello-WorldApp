@@ -1,5 +1,5 @@
 pipeline {
-    node none
+   agent none
     stages {
         stage ('Dependencies'){
             steps {

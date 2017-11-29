@@ -1,6 +1,5 @@
 pipeline {
-   agent ''{
-      label 'master'
+   node 'master'
    }
     stages {
         stage ('Dependencies'){

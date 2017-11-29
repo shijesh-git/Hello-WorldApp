@@ -1,5 +1,8 @@
 pipeline{
     node 'Master'
+    agent {
+     label 'Master'
+    }
     stages {
         stage ('Dependencies'){
             steps{

@@ -1,6 +1,5 @@
 pipeline {
    node 'master'
-   }
     stages {
         stage ('Dependencies'){
             steps {

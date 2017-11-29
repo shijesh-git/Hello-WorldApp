@@ -1,10 +1,20 @@
-"name": "helloworldapp",
-"version": "1.0.0",
-"description": "",
-"main": "app.js",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "nodejs app.js"
-},
-"author": "",
-"license": "ISC"
+{
+  "name": "hello-worldapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodejs app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shijesh-git/Hello-WorldApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shijesh-git/Hello-WorldApp/issues"
+  },
+  "homepage": "https://github.com/shijesh-git/Hello-WorldApp#readme"
+}

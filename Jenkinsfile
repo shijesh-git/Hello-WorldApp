@@ -3,6 +3,9 @@ pipeline{
      label 'Master'
     }
     stages {
+        stage('Checkout'){
+            checkout scm
+       }
         stage ('Dependencies'){
             steps{
                 sh 'npm --version'

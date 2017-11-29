@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    node 'Master'
     stages {
         stage ('Dependencies'){
             steps{

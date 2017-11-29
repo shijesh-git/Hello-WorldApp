@@ -1,8 +1,7 @@
-pipeline {
+pipeline{
     stages {
         stage ('Dependencies'){
-            steps {
-                sh 'npm --version'
+            steps{
                 echo 'Installed dependencies'
             }
         }   

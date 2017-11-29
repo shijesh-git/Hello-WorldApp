@@ -16,6 +16,7 @@ pipeline{
         }   
         stage ('build'){
             steps{
+                sh 'npm start'
                 echo 'Build completed'
             }
         }
